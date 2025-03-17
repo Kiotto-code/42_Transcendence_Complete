@@ -1,0 +1,59 @@
+# APP_URL=
+# APP_ENV=prod
+
+# ALLOWED_HOSTS=
+# CSRF_TRUSTED_ORIGINS=
+
+# REDIS_HOST=redis
+# REDIS_PORT=6379
+# REDIS_DB=1
+
+# DB_USER=tcd_user
+# DB_PASSWORD=tcd_password
+# DB_NAME=tcd_database
+# DB_PORT=5432
+# DB_HOST=db
+# DB_ENGINE=django.db.backends.postgresql
+# DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@db:${DB_PORT}/${DB_NAME}
+
+# DJANGO_SECRET_KEY=
+# 42OAUTH_CLIENT_ID=
+# 42OAUTH_SECRET=
+# FT_OAUTH_SERVER_BASE_URL=https://api.intra.42.fr
+
+# EMAIL_HOST=
+# EMAIL_HOST_USER=
+# EMAIL_HOST_PASSWORD=
+# EMAIL_PORT=
+
+# OTP_AUTH=true
+
+# DJANGO_SUPERUSER_CREATE=true
+# DJANGO_SUPERUSER_EMAIL=admin@example.com
+# DJANGO_SUPERUSER_USERNAME=admin
+# DJANGO_SUPERUSER_PASSWORD=adminpassword
+
+# --------------------------------------------------------------------------------
+
+APP_URL=http://localhost:8000
+APP_ENV=dev
+OTP_AUTH=False
+
+DB_USER=tcd_user
+DB_PASSWORD=tcd_password
+DB_NAME=tcd_database
+DB_PORT=5432
+DB_HOST=db
+
+DJANGO_SECRET_KEY=k_m6%9gjjl6jns@=7ka3bg=%ho_b2)2tnhw=&p!j*32nlhzaea
+DATABASE_URL=postgres://${DB_USER}:${DB_PASSWORD}@db:${DB_PORT}/${DB_NAME}
+
+42OAUTH_CLIENT_ID=u-s4t2ud-1aa16a78cca30a6e557a5dd744705eed48a7f27f6949611dd75d86e292e2427e
+42OAUTH_SECRET=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
+
+FT_OAUTH_SERVER_BASE_URL='https://api.intra.42.fr'
+
+EMAIL_HOST=us2.smtp.mailhostbox.com
+EMAIL_HOST_USER=otp@brookchin.tech
+EMAIL_HOST_PASSWORD=UdtqDnx7
+EMAIL_PORT=587
