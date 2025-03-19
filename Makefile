@@ -16,3 +16,6 @@ restart: down up
 clean:
 	docker system prune -f
 
+stop:
+	docker stop $(docker ps -q)
+	docker rm $(docker ps -q -a)
